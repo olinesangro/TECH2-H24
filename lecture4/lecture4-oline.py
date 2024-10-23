@@ -1,0 +1,1 @@
+lecture4/lecture4.ipynb/Users/olinesangro/Documents/NHH/TECH2/PART2/TECH2-H24-github/TECH2-H24/lecture4/lecture4.ipynb
