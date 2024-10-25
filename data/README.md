@@ -8,7 +8,7 @@ This folder contains various data sets used during the lectures and workshops.
 
     Variables:
 
-    1.  `PassengerId`
+    1.  `PassengerId`: Passenger ID
     2.  `Survived`: indicator whether the person survived
     3.  `Pclass`: accommodation class (first, second, third)
     4.  `Name`: Name of passenger (last name, first name)
@@ -19,6 +19,22 @@ This folder contains various data sets used during the lectures and workshops.
     9.  `Cabin`: Deck + cabin number
     10. `Embarked`: Port at which passenger embarked:
         `C` - Cherbourg, `Q` - Queenstown, `S` - Southampton
+
+- `titanic-additional.csv`: Contains additional (fictitious) data on Titanic passengers.
+
+    Variabes:
+
+    2.  `Title`: Mr., Mrs., Miss, Ms., Rev., etc.
+    3.  `LastName`: Last name
+    4.  `FirstName`: First name
+    5.  `MaidenName`: Maiden name (only for married women)
+    6.  `City`: Fictitious city of residence
+    7.  `Postcode`: Fictitious post code
+    8.  `Address`: Fictitious address
+
+- `UK_post_codes.csv`: List of post code prefixes (first letters)
+    and the correpsonding cities and countries (England, Scotland, etc.)
+
 - `FRED.csv`:
     Contains annual data from [FRED](https://fred.stlouisfed.org/),
     a standard data source for macroeconomic time series.
@@ -71,3 +87,18 @@ This folder contains various data sets used during the lectures and workshops.
     11. `Bedrooms`: Number of bedrooms (integer)
     12. `Fireplaces`: Number of fireplaces (integer)
     13. `HasGarage`: Indicator whether house has a garage (integer)
+
+- `population_norway.csv`: Population by municipality (kommune) as of January 1, 2024.
+
+    Source: SSB, [https://www.ssb.no/statbank/sq/10102933](https://www.ssb.no/statbank/sq/10102933)
+
+# Folder `FRED`
+
+- Same data as in `FRED_monthly.csv`, but disaggregated by decade or by variable.
+
+# Folder `stockmarket`
+
+- `DJIA.csv`: Daily closing price of the Dow Jones Industrial Average since 2020-01-02, obtained from Yahoo! Finance
+- `SP500.csv`: Daily closing price of the S&P 500 since 2020-01-02, obtained from Yahoo! Finance
+- `NASDAQ.csv`: Daily closing price of the NASDAQ composite since 2020-01-02, obtained from Yahoo! Finance
+    
